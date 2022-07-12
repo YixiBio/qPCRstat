@@ -1,3 +1,6 @@
+# qPCRstat 0.1.1
+* Updated R documentation of `sem` and `is.outlier`
+
 # qPCRstat 0.1.0
 * First version of qPCRstat!
 ## Function available in this release
