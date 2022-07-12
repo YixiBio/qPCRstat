@@ -4,10 +4,9 @@
 # qPCRstat
 
 <!-- badges: start -->
-<!-- [![R build -->
-<!-- status](https://github.com/yiximeta/qPCRstat/workflows/R-CMD-check/badge.svg)](https://github.com/yiximeta/qPCRstat/actions) -->
-<!-- [![Codecov test -->
-<!-- coverage](https://codecov.io/gh/yiximeta/qPCRstat/branch/master/graph/badge.svg)](https://app.codecov.io/gh/yiximeta/qPCRstat?branch=master) -->
+
+[![R-CMD-check](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml)
+
 <!-- [![DOI](https://dev.yiximeta.com/badge/badgename.svg)](https://dev.yiximeta.com/badge/latestdoi/doiurl) -->
 <!-- [![CRAN -->
 <!-- status](http://www.r-pkg.org/badges/version/qPCRstat)](https://cran.r-project.org/package=qPCRstat) -->
