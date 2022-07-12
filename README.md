@@ -7,6 +7,8 @@
 
 [![R-CMD-check](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml)
 [![DOI](https://zenodo.org/badge/513131897.svg)](https://zenodo.org/badge/latestdoi/513131897)
+[![License: AGPL
+v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 <!-- [![CRAN -->
 <!-- status](http://www.r-pkg.org/badges/version/qPCRstat)](https://cran.r-project.org/package=qPCRstat) -->
