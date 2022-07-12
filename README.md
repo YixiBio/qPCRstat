@@ -6,8 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YixiBio/qPCRstat/actions/workflows/R-CMD-check.yaml)
+[![DOI](https://zenodo.org/badge/513131897.svg)](https://zenodo.org/badge/latestdoi/513131897)
 
-<!-- [![DOI](https://dev.yiximeta.com/badge/badgename.svg)](https://dev.yiximeta.com/badge/latestdoi/doiurl) -->
 <!-- [![CRAN -->
 <!-- status](http://www.r-pkg.org/badges/version/qPCRstat)](https://cran.r-project.org/package=qPCRstat) -->
 <!-- badges: end -->
@@ -25,16 +25,16 @@ check outliers in a given dataset.
 Check [qPCRstat](https://dev.yiximeta.com/bio/qPCR/qPCRstat/) for latest
 version.
 
-To install the current version (0.1.0), follow the instruction here:
+To install the current version (0.1.1), follow the instruction here:
 
 1.  Download the binary package from
-    [here](https://dev.yiximeta.com/code/Rpackage/qPCRstat/0/0.1.0/qPCRstat_0.1.0.tgz);
+    [here](https://dev.yiximeta.com/code/Rpackage/qPCRstat/0/0.1.1/qPCRstat_0.1.1.tgz);
 
 2.  Then in a R session, type the following code (remember to replace
     the path to the actual file path on your computer):
 
 ``` r
-PATH <- "/path/to/qPCRstat_0.1.0.tar.gz"
+PATH <- "/path/to/qPCRstat.tar.gz"
 install.packages(PATH, repos = NULL, type ="source")
 ```
 
