@@ -1,5 +1,5 @@
 # qPCRstat 0.1.2
-* Updated README file
+* Updated `README` to include instruction for installation from GitHub repo
 
 # qPCRstat 0.1.1
 * Updated R documentation of `sem` and `is.outlier`
