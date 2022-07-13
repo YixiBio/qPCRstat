@@ -9,9 +9,11 @@
 [![DOI](https://zenodo.org/badge/513131897.svg)](https://zenodo.org/badge/latestdoi/513131897)
 [![License: AGPL
 v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![GitHub release (latest by
+date)](https://img.shields.io/github/v/release/YixiBio/qPCRstat?label=lastest&logo=release)](https://github.com/YixiBio/qPCRstat/releases/latest/)
+![GitHub Release
+Date](https://img.shields.io/github/release-date/YixiBio/qPCRstat?logo=release-date)
 
-<!-- [![CRAN -->
-<!-- status](http://www.r-pkg.org/badges/version/qPCRstat)](https://cran.r-project.org/package=qPCRstat) -->
 <!-- badges: end -->
 
 The goal of `qPCRstat` is to provide an easier way to process qPCR data
@@ -27,18 +29,23 @@ check outliers in a given dataset.
 Check [qPCRstat](https://dev.yiximeta.com/bio/qPCR/qPCRstat/) for latest
 version.
 
-To install the current version (0.1.1), follow the instruction here:
+To install the current version (0.1.2), follow the instruction here:
 
 1.  Download the binary package from
-    [here](https://dev.yiximeta.com/code/Rpackage/qPCRstat/0/0.1.1/qPCRstat_0.1.1.tgz);
+    [here](https://dev.yiximeta.com/resources/code/Rpackage/qPCRstat/latest/);
 
 2.  Then in a R session, type the following code (remember to replace
     the path to the actual file path on your computer):
 
 ``` r
-PATH <- "/path/to/qPCRstat.tar.gz"
+PATH <- "/path/to/qPCRstat_version.tar.gz"
 install.packages(PATH, repos = NULL, type ="source")
 ```
+
+Alternatively, install via github directly in R console:
+
+    # install.packages("remotes")
+    remotes::install_github("YixiBio/qPCRstat")
 
 Installation via CRAN is in consideration.
 
