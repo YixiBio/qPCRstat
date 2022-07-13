@@ -1,4 +1,4 @@
-name: Get Latest Release Version
+name: Latest
 on:
   push:
     branches: [ "main" ]
