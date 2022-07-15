@@ -27,7 +27,7 @@ This package includes functions to calculate the fold change using either ddCt m
 
 ## Installation
 
-Check [qPCRstat](https://dev.yiximeta.com/resources/documentation/code/Rpackage/qPCRstat/) for latest version.
+Check [qPCRstat](https://dev.yiximeta.com/resources/code/Rpackage/qPCRstat/) for latest version.
 
 To install the current version, follow the instruction here:
 

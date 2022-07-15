@@ -27,7 +27,7 @@ check outliers in a given dataset.
 ## Installation
 
 Check
-[qPCRstat](https://dev.yiximeta.com/resources/documentation/code/Rpackage/qPCRstat/)
+[qPCRstat](https://dev.yiximeta.com/resources/code/Rpackage/qPCRstat/)
 for latest version.
 
 To install the current version, follow the instruction here:
