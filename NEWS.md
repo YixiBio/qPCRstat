@@ -1,3 +1,5 @@
+# qPCRstat (development version)
+
 # qPCRstat 0.2.0
 
 -   Add `method` argument to `is.outlier` function. The function behaves the same. \## To-do
