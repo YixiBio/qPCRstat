@@ -1,4 +1,4 @@
-# qPCRstat (development version)
+# qPCRstat 0.2.0
 
 # qPCRstat 0.1.2
 * Updated `README` to include instruction for installation from GitHub repo

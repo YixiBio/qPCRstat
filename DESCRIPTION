@@ -1,7 +1,7 @@
 Package: qPCRstat
 Type: Package
 Title: A simple way to pre-process the data for graphical output
-Version: 0.1.2.9001
+Version: 0.2.0
 Author: ZHANG J.
 Maintainer: Yixi Bio <yixi-bio@yiximeta.com>
 Description: Created primarily to process qPCR Cq data for graphical output. However, the functions included is generic and good for other use.    This package includes functions to calculate the fold change using either ddCt method or Paffl method, and function to calculate SEM and check outliers in a given dataset.
