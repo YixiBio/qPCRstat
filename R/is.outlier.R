@@ -1,10 +1,10 @@
 #' Outliers Check
 #'
 #' @description
-#' Check if the input is outlier by comparing the value to mean±SEM.
+#' Check if the input is outlier. If no range is given, the outliers are checked with one of the methods. When using `sem` (default), the data is checked with the range of mean±SEM.
 #'
 #' @details
-is.outlier <- function(dat, inRange = NULL) {
+is.outlier <- function(dat, method = "sem", inRange = NULL) {
   if (is.list(dat) == TRUE) {
     dat <- unlist(dat)
   }
@@ -12,7 +12,7 @@ is.outlier <- function(dat, inRange = NULL) {
     simpleError("Type of input does not match the requirement. Type ?is.outlier to see more.")
   }
   if (is.null(inRange)) {
-    inRange <- error.bar(dat, output = "vector")
+    switch(method, sem = inRange <- error.bar(dat, output = "vector"))
   }
   if (!is.vector(inRange)) {
     inRange <- as.vector(inRange)

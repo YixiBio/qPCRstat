@@ -5,15 +5,18 @@
   Outliers Check
 }
 \description{
-  Check if the input is outlier by comparing the value to mean±SEM.
+  Check if the input is outlier. If no range is given, the outliers are checked with one of the methods. When using `sem` (default), the data is checked with the range of mean±SEM.
 }
 \usage{
-is.outlier(dat, inRange = NULL)
+is.outlier(dat, method = "sem", inRange = NULL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{dat}{
      A numeric vector or a list.
+}
+  \item{method}{
+     The method used to check. The dafault method is `sem`, which campares the data with mean±SEM.
 }
   \item{inRange}{
      The range to compare with. Has be a numeric vector with a length of 2.
@@ -38,30 +41,10 @@ Output is a logical vector, which can then be combine in a data frame to identif
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+ \code{\link[=sem]{sem}}
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (dat, inRange = NULL)
-{
-    if (is.null(inRange)) {
-        inRange <- error.bar(dat, output = "vector")
-    }
-    if (!is.vector(inRange)) {
-        inRange <- as.vector(inRange)
-    }
-    i = 1
-    outliers <- 1:length(dat)
-    ifelse(length(inRange) == 2, for (i in 1:length(dat)) {
-        outliers[i] <- dat[i] > inRange[1] || dat[i] < inRange[2]
-        i = i + 1
-    }, simpleError("length of 'InRange' is not 2"))
-    outliers
-  }
+is.outlier(c(1:5, 3:7, 10))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
